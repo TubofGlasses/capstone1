@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: #23282e;
+}
+
+footer p {
+    margin-bottom: 0px;
+}
+
+
+
+/* Class */
+
+.img-contact {
+    height: 30px;
+    width: 30px;
+}
+
+.project-card {
+    max-width: 300x; 
+    margin-left: auto;
+    margin-right: auto;  
+    height: 100%;
+    background-color: #404952;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.project-card .card-body {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card .card-title {
+    font-weight: bold;
+    color: rgb(182, 196, 243);
+    margin-bottom: 10px;
+}
+
+.project-card .card-text {
+    flex-grow: 1;
+    font-size: 0.95rem;
+    color: white;
+}
+
+/* ID */
+
+#contact {
+    background-color: #2a3036;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#contact input, #contact textarea {
+  background-color: #1e2329;  
+  color: #ffffff;        
+  border: 1px solid #444;    
+}
+
+#contact input::placeholder, #contact textarea::placeholder {
+  color: #aaaaaa;           
+}
+
+#contact input:focus, #contact textarea:focus {
+  border-color: #007bff;      
+  outline: none;
+  box-shadow: none;
+}
+
+#landing {
+    background-color: #23282e;
+    color: white;
+}
+
+#landing p {
+    max-width: 600px;
+}
+
+#projects {
+    background-color: #2a3036;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#tools {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+#tools h4{
+    color: rgb(182, 196, 243);
+}
