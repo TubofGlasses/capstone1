@@ -13,6 +13,10 @@ footer p {
     margin-bottom: 0px;
 }
 
+iframe {
+    border: 0;
+}
+
 
 
 /* Class */
@@ -98,6 +102,10 @@ footer p {
 
 #landing p {
     max-width: 600px;
+}
+
+#landing-intro {
+    padding-left: 40px;
 }
 
 #projects {
